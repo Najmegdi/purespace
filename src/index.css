@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .align-element {
+        @apply mx-auto max-w-full flex flex-col space-y-4 px-4 ;
+    }
+}
