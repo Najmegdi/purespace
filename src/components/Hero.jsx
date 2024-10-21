@@ -25,7 +25,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      <div className="p-8 bg-base-200 rounded-box">
+      <div>
         <div className="flex flex-col justify-center items-center gap-20">
           <h1 className="max-w-2xl text-4xl font-bold tracking-tight sm:text-6xl self-start text-left">
             discover the essence of minimalist design & style

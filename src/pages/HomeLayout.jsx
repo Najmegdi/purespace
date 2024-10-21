@@ -6,7 +6,7 @@ const HomeLayout = () => {
   const navigation = useNavigation();
   const isPageLoading = navigation.state === 'loading';
   return (
-    <div className=" px-20">
+    <div className="h-screen px-20">
       <Navbar />
       {isPageLoading ? (
         <Loading />
