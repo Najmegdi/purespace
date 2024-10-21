@@ -2,7 +2,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
-};
+}
 
 @tailwind base;
 @tailwind components;
@@ -12,4 +12,4 @@
     .align-element {
         @apply mx-auto max-w-full flex flex-col space-y-4 px-4 ;
     }
-};
+}
